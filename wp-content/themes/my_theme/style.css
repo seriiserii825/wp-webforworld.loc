@@ -113,7 +113,37 @@ header .logo{
 /* -------------------------------------Container------------------------------ */
 /* ---------------------------------------------------------------------------- */
 #container {}
-#container .wrap-container{}
+#container .wrap-container{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.gallery .wrap-col {
+	height: auto;
+	background: #36434F;
+}
+
+.gallery .wrap-col .example-image-link {
+	display: block;
+	height: 240px;
+	overflow: hidden;
+}
+
+.gallery .wrap-col .item-content {
+	padding: 20px 15px;
+	height: 100%;
+}
+
+.gallery .wrap-col .item-content__link {
+	font-size: 24px;
+}
+
 
 /* ---content-box--- */
 .content-box {margin-bottom: 60px;}

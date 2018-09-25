@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php
+ get_header();
+
+  ?>
 
         <section id="container">
             <div class="wrap-container">
