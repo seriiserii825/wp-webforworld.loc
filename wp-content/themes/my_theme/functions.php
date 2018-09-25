@@ -24,3 +24,5 @@ add_action( 'wp_enqueue_scripts', 'my_theme' );
 
 
 register_nav_menu( 'header-menu', 'меню в шапке' );
+
+add_theme_support( 'post-thumbnails' );
